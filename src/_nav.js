@@ -23,10 +23,15 @@ export default {
       url: '/base/forms',
       icon: 'icon-plus',
     },
+    // {
+    //   name: 'ແກ້ໄຂຂໍ້ມູນ',
+    //   url: '/theme/typography',
+    //   icon: 'icon-pencil',
+    // },
     {
-      name: 'ແກ້ໄຂຂໍ້ມູນ',
-      url: '/theme/typography',
-      icon: 'icon-pencil',
+      name: 'ເບິ່ງຂໍ້ມູນ',
+      url: '/base/tables',
+      icon: 'icon-eye',
     },
     {
       title: true,

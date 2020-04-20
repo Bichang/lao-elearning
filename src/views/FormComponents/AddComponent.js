@@ -50,7 +50,7 @@ export default class AddComponent extends Component {
                         <option value="1">ຄະນິດຕະສາດ</option>
                         <option value="2">ເຄມີສາດ</option>
                         <option value="3">ຟີຊີກສາດ</option>
-                        <option value="3">ພາສາສາດ</option>
+                        <option value="4">ພາສາສາດ</option>
                       </Input>
                     </Col>
                   </FormGroup>

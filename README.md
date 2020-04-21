@@ -1,9 +1,6 @@
 
 
 
-## Versions
-
-* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
 
 ## Installation
 

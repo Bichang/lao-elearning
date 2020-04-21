@@ -591,16 +591,16 @@ class Dashboard extends Component {
               <CardBody>
                 <Row>
                   <Col sm="5">
-                    <CardTitle className="mb-0">Traffic</CardTitle>
-                    <div className="small text-muted">January 2021</div>
+                    <CardTitle className="mb-0">ແນວໂນ້ມ</CardTitle>
+                    <div className="small text-muted"> January 2021</div>
                   </Col>
                   <Col sm="7" className="d-none d-sm-inline-block">
                     {/* <Button color="primary" className="float-right"><i className="icon-cloud-download"></i></Button> */}
                     <ButtonToolbar className="float-right" aria-label="Toolbar with button groups">
                       <ButtonGroup className="mr-3" aria-label="First group">
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(1)} active={this.state.radioSelected === 1}>Day</Button>
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(2)} active={this.state.radioSelected === 2}>Month</Button>
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(3)} active={this.state.radioSelected === 3}>Year</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(1)} active={this.state.radioSelected === 1}>ວັນທີ່</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(2)} active={this.state.radioSelected === 2}>ເດືອນ</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(3)} active={this.state.radioSelected === 3}>ປີ</Button>
                       </ButtonGroup>
                     </ButtonToolbar>
                   </Col>

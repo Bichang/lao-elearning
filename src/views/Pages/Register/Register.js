@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Card, CardBody, CardFooter, Col, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap';
-//import Calendar from 'react-input-calendar'
+import {Calendar} from 'react-widgets'
+let {Calendar} = ReactWidgets;
 class Register extends Component {
   render() {
     return (
@@ -27,7 +28,7 @@ class Register extends Component {
                           <i className="icon-calendar"></i>
                         </InputGroupText>
                       </InputGroupAddon>
-                      <Input type="text" placeholder="ວັນເດືອນປີເກີດ" autoComplete="birthday" />
+                      <Input type="text" placeholder="ວັນເດືອນປີເກີດ        DD/MM/YYYY" autoComplete="birthday" />
                       {/* <Calendar format='DD/MM/YYYY' date='4-12-2014'/> */}
                     </InputGroup>
                     <InputGroup className="mb-3">

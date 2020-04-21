@@ -6,7 +6,7 @@
 
 ``` bash
 # clone the repo
-$ git clone https://github.com/coreui/coreui-free-react-admin-template.git my-project
+$ git clone https://github.com/Bichang/lao-elearning.git
 
 # go into app's directory
 $ cd my-project
